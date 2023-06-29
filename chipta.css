@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.bosh {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 1400px;
+    height: 794px;
+    animation:slayt 6s infinite ;
+}
+@keyframes slayt{
+    0%{
+      background: url(./rasmlar/1.jpg);
+    }
+    25%{
+        background:url(./rasmlar/2.jpg);
+    }
+    50%{
+        background: url(./rasmlar/3.jpg);
+    }
+    100%{
+        background: url(./rasmlar/4.jpg);
+    }
+}
+
+.yellow {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    color:black;
+    margin-top: 300px;
+}
+
+.yellow .next1{
+    padding: 50px 20px;
+    text-align: end;
+    background-color: #ffdd00;
+    font-size: 40px;
+    width: 67px;
+    height: 134px;
+    border-radius: 0px 100px 100px 0px;
+}
+.yellow .next2{
+    padding: 50px 20px;
+    text-align: end;
+    background-color: #ffdd00;
+    font-size: 40px;
+    width: 67px;
+    height: 134px;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.bar {
+    display: grid;
+    grid-template-columns: 200px 900px 215px;
+    padding: 50px;
+    align-items: center;
+}
+
+.ticket .ii {
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.549);
+    background-color: #ffdd00;
+    padding: 5px 10px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.ticket span {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.7px;
+}
+
+.ticket .uz {
+    color: #828283;
+    letter-spacing: 1.5px;
+}
+
+.ticket .dot {
+    color: #ffdd00;
+}
+
+.bar1 {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 100px auto auto;
+}
+
+.lan {
+    display: flex;
+}
+
+.lan p {
+    border: white 1px solid;
+    height: 25px;
+    padding: 5px 3px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.bar1 ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+.bar1 ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 560;
+}
+ul li a:hover{
+    border-bottom: #ffdd00 4px solid;
+}
+
+.bar1 i {
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#man {
+    background-color: #ffdd00;
+    padding: 18px;
+    border-radius: 50px;
+    color: black;
+}
